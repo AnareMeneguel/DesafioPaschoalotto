@@ -1,0 +1,12 @@
+Softwares utilizados VB6 e Postgres
+
+- Recriar o banco de dados Postgres utilizando o Script disponibilizado dentro do arquivo "Script criação do banco".
+- Talvez seja necessario reconfiguração de usuario,senha, porta e banco nas connection strings
+
+A ideia do projeto construido e uma tela onde é cadastrados novos clientes, sendo importados do documento padrão tambem disponibilizado com nome "Excel Exemplo" onde o usuario o utiliza como padrão para novas inserções, pois esta dotado da estrutura necessaria para que seja importado ao banco. 
+
+A tela principal constitui de 3 botões o primeiro importa o documento somente em .xlxs, pois contem filtro para barrar outros tipos de documentos, ja validando se existem CPF/CNPJ existentes no banco, caso existam os mostrando na listView onde é possivel copiar os mesmos para a area de transferencia. 
+
+O segundo botão você consegue realizar uma pesquisa em todss as informações existentes no banco, o filtro pode ser CPF, Nome ou data de inclusão, e apos isso o usuario pode gerar um relatorio somente das informações filtradas.
+
+O ultimo botão gera um relatorio com todas as informações contidas no Banco de dados. 

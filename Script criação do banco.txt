@@ -1,0 +1,26 @@
+CREATE DATABASE vb6_paschoalotto
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Portuguese_Brazil.1252'
+    LC_CTYPE = 'Portuguese_Brazil.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+	CREATE TABLE IF NOT EXISTS public.cadastro
+(
+    nome text COLLATE pg_catalog."default",
+    sobrenome text COLLATE pg_catalog."default",
+    cpf text COLLATE pg_catalog."default",
+    endereco text COLLATE pg_catalog."default",
+    telefone text COLLATE pg_catalog."default",
+    idade text COLLATE pg_catalog."default",
+    mae text COLLATE pg_catalog."default",
+    dt_inclusao text COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.cadastro
+    OWNER to postgres;
