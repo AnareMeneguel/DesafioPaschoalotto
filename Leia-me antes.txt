@@ -1,5 +1,8 @@
 Softwares utilizados VB6 e Postgres
 
+*verificar antes*
+
+- ter certeza de que as referencias foram selecionadas
 - Recriar o banco de dados Postgres utilizando o Script disponibilizado dentro do arquivo "Script criação do banco".
 - Talvez seja necessario reconfiguração de usuario,senha, porta e banco nas connection strings
 
